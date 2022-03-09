@@ -5,6 +5,31 @@
     list-style: none;
 }
 
+h1 {
+    font-family: "Comfortaa";
+    font-size: 32px;
+}
+
+h2 {
+    font-family: "Comfortaa";
+    font-size: 26px;
+}
+
+h3 {
+    font-family: "Comfortaa";
+    font-size: 22px;
+}
+
+p {
+    font-family: "Fredoka";
+    font-size: 18px;
+}
+
+a {
+    font-family: "Fredoka";
+    font-size: 16px;
+}
+
 .flexbox {
     display: flex;
     flex-wrap: wrap;
@@ -16,25 +41,29 @@
     padding: 30px;
     width: 100%;
     background-color: black;
+    text-align: center;
 }
 
 .icon {
     width: 50px;
     height: auto;
-}
-
-#icon {
-    float: left;
+    margin-bottom: 5px;
 }
 
 li {
     display: inline;
-    float: right;
     margin-right: 15px;
+    border-bottom: 1px solid transparent;
+}
+
+li:hover {
+    border-bottom: 1px solid white;
 }
 
 a {
     color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 .header {
@@ -107,4 +136,34 @@ h3 {
 
 .email {
     color: black;
+    margin-top: 10px;
+    border-bottom: 1px solid transparent;
+}
+
+.email:hover {
+    border-bottom: 1px solid black;
+    color: red;
+}
+
+.contact {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+.contact-box {
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+.contact-p {
+    margin-top: 15px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 30px;
 }
